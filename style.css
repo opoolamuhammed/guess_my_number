@@ -109,3 +109,21 @@ main {
         flex-direction: column;
     }
 }
+
+.header {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.header .again {
+    position: static;
+    order: -1;
+}
+
+.header .again {
+    margin-right: 1rem;
+}
+
+.header h1 {
+    flex-grow: 1;
+}
